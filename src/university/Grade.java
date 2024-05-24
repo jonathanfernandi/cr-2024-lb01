@@ -23,4 +23,9 @@ public class Grade {
 		return score;
 	}
 	
+	public String toString() {
+		return String.format("Student: %s, Subject: %s, Score: %d\n", 
+				student.getStudentId() + "-" + student.getName(),
+				subject, score);
+	}
 }
