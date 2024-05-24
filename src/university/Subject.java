@@ -24,5 +24,7 @@ public class Subject {
 	public String getCode() {
 		return code;
 	}
-	
+	public String toString() {
+		return String.format("%s - %s", this.code, this.name);
+	}
 }
